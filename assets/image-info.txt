@@ -1,0 +1,3 @@
+Background: #FF70AB
+Circle: #FFFFFF
+Square: #000000
