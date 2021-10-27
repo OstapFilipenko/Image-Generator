@@ -334,3 +334,41 @@ Fuchsia purple:204,57,123,1
 Fuchsia rose:199,67,117,1
 Fulvous:228,132,0,1
 Fuzzy Wuzzy:135,66,31,1
+Gainsboro:220,220,220,1
+Gamboge:228,155,15,1
+Generic viridian:0,127,102,1
+Ghost white:248,248,255,1
+Glaucous:96,130,182,1
+Glossy grape:171,146,179,1
+GO green:0,171,102,1
+Gold:165,124,0,1
+Gold (metallic):212,175,55,1
+Gold (web) (Golden):255,215,0,1
+Gold (Crayola):230,190,138,1
+Gold Fusion:133,117,78,1
+Golden brown:153,101,21,1
+Golden poppy:252,194,0,1
+Golden yellow:255,223,0,1
+Goldenrod:218,165,32,1
+Gotham green:0,87,63,1
+Granite gray:103,103,103,1
+Granny Smith apple:168,228,160,1
+Gray (web):128,128,128,1
+Gray (X11 gray):190,190,190,1
+Green:0,255,0,1
+Green (Crayola):28,172,120,1
+Green (web):0,128,0,1
+Green (Munsell):0,168,119,1
+Green (NCS):0,159,107,1
+Green (Pantone):0,173,67,1
+Green (pigment):0,165,80,1
+Green (RYB):102,176,50,1
+Green-blue:17,100,180,1
+Green-blue (Crayola):40,135,200,1
+Green-cyan:0,153,102,1
+Green Lizard:167,244,50,1
+Green Sheen:110,174,161,1
+Green-yellow:173,255,47,1
+Green-yellow (Crayola):240,232,145,1
+Grullo:169,154,134,1
+Gunmetal:42,52,57,1
