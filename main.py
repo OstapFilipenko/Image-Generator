@@ -25,4 +25,7 @@ def change_color(file_path, o_color, n_color):
 
         return im
 
+def combine_images(background_image, foreground_image):
+    return Image.alpha_composite(background_image, foreground_image)
+
 change_color("assets/FK-Square.png", old_color, new_color).save("lol.png")
