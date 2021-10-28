@@ -5,7 +5,7 @@ import linecache
 
 from Models.color import Color
 
-old_color = 255, 112, 171, 255
+old_color = 0, 0, 0, 255
 new_color = 66, 135, 245, 255
 color_path = "assets/colors.txt"
 
@@ -44,4 +44,6 @@ def parse_line_to_color(line):
     return Color(spilited_line[0], rgba_values[0],rgba_values[1], rgba_values[2], rgba_values[3])
 
 #print(parse_line_to_color(random_file_line()))
-#change_color("assets/FK-Square.png", old_color, new_color).save("lol.png")
+##change_color("assets/FK-Square.png", old_color, new_color).save("lol.png")
+
+combine_images(change_color("assets/Components/Background.png", old_color, new_color), Image.open("assets/Components/Circle-b9-774x774.png")).save("kik.png")
