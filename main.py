@@ -46,4 +46,9 @@ def parse_line_to_color(line):
 #print(parse_line_to_color(random_file_line()))
 ##change_color("assets/FK-Square.png", old_color, new_color).save("lol.png")
 
-combine_images(change_color("assets/Components/Background.png", old_color, new_color), Image.open("assets/Components/Circle-b9-774x774.png")).save("kik.png")
+randCol = parse_line_to_color(random_file_line())
+randColVal = int(randCol.red), int(randCol.green), int(randCol.blue), 255
+
+randCol_2 = parse_line_to_color(random_file_line())
+randColVal_2 = int(randCol_2.red), int(randCol_2.green), int(randCol_2.blue), 255
+combine_images(change_color("assets/Components/Layer-1/Background.png", old_color, randColVal), change_color("assets/Components/Layer-2/Circle.png", old_color, randColVal_2)).save("kik.png")
