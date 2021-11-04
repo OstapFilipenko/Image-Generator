@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <clipPath id="clip-Zeichenfläche_1">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche – 1" clip-path="url(#clip-Zeichenfläche_1)">
+    <g id="Rechteck_1" data-name="Rechteck 1" transform="translate(162 162)" fill="none" stroke="#000" stroke-width="3">
+      <rect width="700" height="700" stroke="none"/>
+      <rect x="1.5" y="1.5" width="697" height="697" fill="none"/>
+    </g>
+  </g>
+</svg>

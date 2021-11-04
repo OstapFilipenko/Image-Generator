@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <clipPath id="clip-Zeichenfläche_1">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="Zeichenfläche_1" data-name="Zeichenfläche – 1" clip-path="url(#clip-Zeichenfläche_1)">
+    <path id="Polygon_1" data-name="Polygon 1" d="M299.914,0a10,10,0,0,1,7.071,2.929L427.071,123.015A10,10,0,0,1,430,130.086V299.914a10,10,0,0,1-2.929,7.071L306.985,427.071A10,10,0,0,1,299.914,430H130.086a10,10,0,0,1-7.071-2.929L2.929,306.985A10,10,0,0,1,0,299.914V130.086a10,10,0,0,1,2.929-7.071L123.015,2.929A10,10,0,0,1,130.086,0Z" transform="translate(297 297)" fill="#2381C8
+"/>
+  </g>
+</svg>
