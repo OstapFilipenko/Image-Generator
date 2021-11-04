@@ -5,7 +5,7 @@
     </clipPath>
   </defs>
   <g id="Zeichenfläche_1" data-name="Zeichenfläche – 1" clip-path="url(#clip-Zeichenfläche_1)">
-    <g id="Rechteck_1" data-name="Rechteck 1" transform="translate(407 407)" fill="none" stroke="#000" stroke-width="5">
+    <g id="Rechteck_1" data-name="Rechteck 1" transform="translate(407 407)" fill="none" stroke="#000" stroke-width="3">
       <rect width="210" height="210" stroke="none"/>
       <rect x="1.5" y="1.5" width="207" height="207" fill="none"/>
     </g>

@@ -90,7 +90,7 @@ def chooseLayer3():
     elif (percent > 20) and (percent <= 45):
         return 'assets/Components/Layer-3/smallsquare.svg'
     elif (percent > 45) and (percent <= 55):
-        return 'assets/Components/Layer-3/smalloctagon.svg'
+        return 'assets/Components/Layer-3/smallhexagon.svg'
     else:
         return 'assets/Components/nothing.svg'
 
@@ -108,7 +108,7 @@ def chooseLayer4():
     elif (percent > 20) and (percent <= 45):
         return 'assets/Components/Layer-4/square.svg'
     elif (percent > 45) and (percent <= 55):
-        return 'assets/Components/Layer-4/octagon.svg'
+        return 'assets/Components/Layer-4/hexagon.svg'
     elif (percent > 55) and (percent <= 55):
         return 'assets/Components/Layer-4/rotatedsquare.svg'
     else:
@@ -128,7 +128,7 @@ def chooseLayer5():
     elif (percent > 20) and (percent <= 45):
         return 'assets/Components/Layer-5/bigsquare.svg'
     elif (percent > 45) and (percent <= 55):
-        return 'assets/Components/Layer-5/bigoctagon.svg'
+        return 'assets/Components/Layer-5/bighexagon.svg'
     else:
         return 'assets/Components/nothing.svg'
 

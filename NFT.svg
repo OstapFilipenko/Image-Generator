@@ -32,7 +32,7 @@
 																				</g>
 																			</g>
 																		</g>
-																		<rect x="0.0" y="0.0" width="1024.0" height="1024.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(25%,76%,23%); fill-rule: evenodd;"/>
+																		<rect x="0.0" y="0.0" width="1024.0" height="1024.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,90%,78%); fill-rule: evenodd;"/>
 																	</g>
 																</g>
 															</g>
@@ -46,12 +46,12 @@
 																				</g>
 																			</g>
 																		</g>
-																		<g transform=" matrix(1,0,0,1,297,297)">
+																		<g transform=" matrix(1,0,0,1,302,302)">
 																			<g transform="">
 																				<g transform="">
 																					<g transform="">
 																						<g transform="">
-																							<path d="M 299.914 0 C 302.566151 0.000036 305.109664 1.053628 306.985 2.929 L 427.071 123.015 C 428.946372 124.890336 429.999964 127.433849 430 130.086 L 430 299.914 C 429.999964 302.566151 428.946372 305.109664 427.071 306.985 L 306.985 427.071 C 305.109664 428.946372 302.566151 429.999964 299.914 430 L 130.086 430 C 127.433849 429.999964 124.890336 428.946372 123.015 427.071 L 2.929 306.985 C 1.053628 305.109664 0.000036 302.566151 -0 299.914 L -0 130.086 C 0.000036 127.433849 1.053628 124.890336 2.929 123.015 L 123.015 2.929 C 124.890336 1.053628 127.433849 0.000036 130.086 -0 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(12%,50%,78%); fill-rule: evenodd;"/>
+																							<path d="M 296.985 0 L 420 123.015 L 420 296.985 L 296.985 420 L 123.015 420 L 0 296.985 L 0 123.015 L 123.015 0 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,90%,78%); fill-rule: evenodd;"/>
 																						</g>
 																					</g>
 																				</g>
@@ -71,10 +71,6 @@
 															<g transform="">
 																<path d="M 0 0 L 1024 0 L 1024 1024 L 0 1024 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
 															</g>
-														</g>
-														<g transform=" matrix(1,0,0,1,407,407)">
-															<rect x="0.0" y="0.0" width="210.0" height="210.0" style="stroke: none; stroke-linecap: butt; stroke-width: 5.0; fill: none; fill-rule: evenodd;"/>
-															<rect x="1.5" y="1.5" width="207.0" height="207.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 5.0; fill: none; fill-rule: evenodd;"/>
 														</g>
 													</g>
 												</g>
@@ -104,10 +100,6 @@
 				<g transform=" matrix(1,0,0,-1,0,1024)">
 					<g transform="">
 						<path d="M 0 0 L 1024 0 L 1024 1024 L 0 1024 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
-						<g transform=" matrix(1,0,0,1,162,162)">
-							<rect x="0.0" y="0.0" width="700.0" height="700.0" style="stroke: none; stroke-linecap: butt; stroke-width: 3.0; fill: none; fill-rule: evenodd;"/>
-							<rect x="1.5" y="1.5" width="697.0" height="697.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 3.0; fill: none; fill-rule: evenodd;"/>
-						</g>
 					</g>
 				</g>
 			</g>
