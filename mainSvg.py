@@ -109,7 +109,7 @@ def chooseLayer4():
         return 'assets/Components/Layer-4/square.svg'
     elif (percent > 45) and (percent <= 55):
         return 'assets/Components/Layer-4/hexagon.svg'
-    elif (percent > 55) and (percent <= 55):
+    elif (percent > 55) and (percent <= 60):
         return 'assets/Components/Layer-4/rotatedsquare.svg'
     else:
         return 'assets/Components/nothing.svg'

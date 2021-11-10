@@ -5,7 +5,7 @@
     </clipPath>
   </defs>
   <g id="Zeichenfläche_1" data-name="Zeichenfläche – 1" clip-path="url(#clip-Zeichenfläche_1)">
-    <path id="Polygon_1" data-name="Polygon 1" d="M296.985,0,420,123.015v173.97L296.985,420H123.015L0,296.985V123.015L123.015,0Z" transform="translate(302 302)" fill="#F2E7C9
+    <rect id="Rechteck_1" data-name="Rechteck 1" width="420" height="420" transform="translate(302 302)" fill="#A3C4BC
 "/>
   </g>
 </svg>
