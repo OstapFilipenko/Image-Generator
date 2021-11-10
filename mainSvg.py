@@ -9,8 +9,10 @@ import linecache
 from reportlab.graphics.shapes import Drawing
 from reportlab.graphics.renderSVG import SVGCanvas, draw
 
-from Models.color import Color
+import gui
 
+gui.start_gui()
+print("Image-Number: " + str(gui.image_number))
 
 old_colour = '#FF0000'
 color_path = "assets/hexColors.txt"
@@ -20,13 +22,13 @@ background = None
 layer2 = None
 
 
-def randomColor():
+def random_color():
     num_lines = sum(1 for line in open(color_path))
     random_line = random.randint(1, num_lines)
     return linecache.getline(color_path, random_line)
 
 
-def getContent(filePath, newCol):
+def get_content(filePath, newCol):
     f = codecs.open(filePath, encoding='utf-8', errors='ignore')
     content = f.read()
     f.close
@@ -34,7 +36,7 @@ def getContent(filePath, newCol):
     return w
 
 
-def combineSvg(background, foreground):
+def combine_svg(background, foreground):
     d = Drawing(1024, 1024)
     d.add(background)
     d.add(foreground)
@@ -43,22 +45,22 @@ def combineSvg(background, foreground):
     return c
 
 
-def changeColor(filePath, content):
+def change_color(filePath, content):
     f = open(filePath, 'w', encoding='utf-8', errors='ignore')
     f.write(content)
     f.close
 
 
-def buildBackground():
-    newColBackground = randomColor()
-    backgroundCol = getContent(
+def build_background():
+    newColBackground = random_color()
+    backgroundCol = get_content(
         'assets/Components/Layer-1/background.svg', newColBackground)
-    changeColor('layer1.svg', backgroundCol)
+    change_color('layer1.svg', backgroundCol)
     background = svg2rlg('layer1.svg')
     return background
 
 
-def chooseLayer2():
+def choose_layer2():
     percent = random.randint(1, 100)
     if percent <= 30:
         return 'assets/Components/Layer-2/circle.svg'
@@ -70,20 +72,20 @@ def chooseLayer2():
         return 'assets/Components/nothing.svg'
 
 
-def buildLayer2():
-    chosenlayer2 = chooseLayer2()
+def build_layer2():
+    chosenlayer2 = choose_layer2()
 
     while True:
-        newColForeground = randomColor()
+        newColForeground = random_color()
         if newColForeground != backgroundCol:
             break
-    layer2Col = getContent(chosenlayer2, newColForeground)
-    changeColor('layer2.svg', layer2Col)
+    layer2Col = get_content(chosenlayer2, newColForeground)
+    change_color('layer2.svg', layer2Col)
     layer2 = svg2rlg('layer2.svg')
     return layer2
 
 
-def chooseLayer3():
+def choose_layer3():
     percent = random.randint(1, 100)
     if percent <= 20:
         return 'assets/Components/Layer-3/smallcircle.svg'
@@ -95,13 +97,13 @@ def chooseLayer3():
         return 'assets/Components/nothing.svg'
 
 
-def buildLayer3():
-    chosenlayer3 = chooseLayer3()
+def build_layer3():
+    chosenlayer3 = choose_layer3()
     layer3 = svg2rlg(chosenlayer3)
     return layer3
 
 
-def chooseLayer4():
+def choose_layer4():
     percent = random.randint(1, 100)
     if percent <= 20:
         return 'assets/Components/Layer-4/circle.svg'
@@ -115,13 +117,13 @@ def chooseLayer4():
         return 'assets/Components/nothing.svg'
 
 
-def buildLayer4():
-    chosenlayer4 = chooseLayer4()
+def build_layer4():
+    chosenlayer4 = choose_layer4()
     layer4 = svg2rlg(chosenlayer4)
     return layer4
 
 
-def chooseLayer5():
+def choose_layer5():
     percent = random.randint(1, 100)
     if percent <= 20:
         return 'assets/Components/Layer-5/bigcircle.svg'
@@ -133,36 +135,40 @@ def chooseLayer5():
         return 'assets/Components/nothing.svg'
 
 
-def buildLayer5():
-    chosenlayer5 = chooseLayer5()
+def build_layer5():
+    chosenlayer5 = choose_layer5()
     layer5 = svg2rlg(chosenlayer5)
     return layer5
 
+def create_image(name_ending):
+    background = build_background()
+    layer2 = build_layer2()
+    layer3 = build_layer3()
+    layer4 = build_layer4()
+    layer5 = build_layer5()
 
-background = buildBackground()
-layer2 = buildLayer2()
-layer3 = buildLayer3()
-layer4 = buildLayer4()
-layer5 = buildLayer5()
+    firstcombined = combine_svg(background, layer2)
+    firstcombined.save("NFT.svg")
 
-firstcombined = combineSvg(background, layer2)
-firstcombined.save("NFT.svg")
+    a = svg2rlg("NFT.svg")
 
-a = svg2rlg("NFT.svg")
+    secondcombined = combine_svg(a, layer3)
+    secondcombined.save("NFT.svg")
 
-secondcombined = combineSvg(a, layer3)
-secondcombined.save("NFT.svg")
+    a = svg2rlg("NFT.svg")
 
-a = svg2rlg("NFT.svg")
+    thirdcombined = combine_svg(a, layer4)
+    thirdcombined.save("NFT.svg")
 
-thirdcombined = combineSvg(a, layer4)
-thirdcombined.save("NFT.svg")
+    a = svg2rlg("NFT.svg")
 
-a = svg2rlg("NFT.svg")
+    combined = combine_svg(a, layer5)
+    combined.save("NFT.svg")
 
-combined = combineSvg(a, layer5)
-combined.save("NFT.svg")
+    a = svg2rlg("NFT.svg")
 
-a = svg2rlg("NFT.svg")
+    renderPM.drawToFile(a, gui.folder_name + "/NFT_" + str(name_ending) + ".png", fmt="PNG")
 
-renderPM.drawToFile(a, "NFT.png", fmt="PNG")
+for i in range (0, int(gui.image_number)):
+    create_image(i+1)
+

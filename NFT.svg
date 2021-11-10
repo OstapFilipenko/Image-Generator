@@ -32,7 +32,7 @@
 																				</g>
 																			</g>
 																		</g>
-																		<rect height="1024.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(89%,85%,52%); fill-rule: evenodd;" width="1024.0" x="0.0" y="0.0"/>
+																		<rect height="1024.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,41%,41%); fill-rule: evenodd;" width="1024.0" x="0.0" y="0.0"/>
 																	</g>
 																</g>
 															</g>
@@ -47,7 +47,15 @@
 																			</g>
 																		</g>
 																		<g transform=" matrix(1,0,0,1,302,302)">
-																			<rect height="420.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(63%,76%,72%); fill-rule: evenodd;" width="420.0" x="0.0" y="0.0"/>
+																			<g transform="">
+																				<g transform="">
+																					<g transform="">
+																						<g transform="">
+																							<path d="M 296.985 0 L 420 123.015 L 420 296.985 L 296.985 420 L 123.015 420 L 0 296.985 L 0 123.015 L 123.015 0 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,74%,27%); fill-rule: evenodd;"/>
+																						</g>
+																					</g>
+																				</g>
+																			</g>
 																		</g>
 																	</g>
 																</g>
@@ -64,6 +72,27 @@
 																<path d="M 0 0 L 1024 0 L 1024 1024 L 0 1024 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
 															</g>
 														</g>
+														<g transform=" matrix(1,0,0,1,391,407)">
+															<g transform="">
+																<g transform="">
+																	<g transform="">
+																		<path d="M 181.5 0 L 242 105 L 181.5 210 L 60.5 210 L 0 105 L 60.5 0 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+																	</g>
+																</g>
+															</g>
+															<g transform="">
+																<g transform="">
+																	<g transform="">
+																		<path d="M 62.23378 3 L 3.462341 105 L 62.23378 207 L 179.76622 207 L 238.537659 105 L 179.76622 3 L 62.23378 3 Z M 60.5 0 L 181.5 0 L 242 105 L 181.5 210 L 60.5 210 L 0 105 L 60.5 0 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 0.0; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+																	</g>
+																</g>
+																<g transform="">
+																	<g transform="">
+																		<path d="M 62.23378 3 L 3.462341 105 L 62.23378 207 L 179.76622 207 L 238.537659 105 L 179.76622 3 L 62.23378 3 M 60.5 0 L 181.5 0 L 242 105 L 181.5 210 L 60.5 210 L 0 105 L 60.5 0 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+																	</g>
+																</g>
+															</g>
+														</g>
 													</g>
 												</g>
 											</g>
@@ -77,6 +106,10 @@
 										<g transform="">
 											<path d="M 0 0 L 1024 0 L 1024 1024 L 0 1024 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
 										</g>
+										<g transform=" matrix(1,0,0,1,302,302)">
+											<circle cx="210.0" cy="210.0" r="210.0" style="stroke: none; stroke-linecap: butt; stroke-width: 3.0; fill: none; fill-rule: evenodd;"/>
+											<circle cx="210.0" cy="210.0" r="207.5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 3.0; fill: none; fill-rule: evenodd;"/>
+										</g>
 									</g>
 								</g>
 							</g>
@@ -88,6 +121,10 @@
 				<g transform=" matrix(1,0,0,-1,0,1024)">
 					<g transform="">
 						<path d="M 0 0 L 1024 0 L 1024 1024 L 0 1024 Z " style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: none; fill-rule: evenodd;"/>
+						<g transform=" matrix(1,0,0,1,162,162)">
+							<rect height="700.0" style="stroke: none; stroke-linecap: butt; stroke-width: 3.0; fill: none; fill-rule: evenodd;" width="700.0" x="0.0" y="0.0"/>
+							<rect height="697.0" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 3.0; fill: none; fill-rule: evenodd;" width="697.0" x="1.5" y="1.5"/>
+						</g>
 					</g>
 				</g>
 			</g>
