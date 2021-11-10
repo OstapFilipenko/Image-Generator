@@ -12,7 +12,6 @@ from reportlab.graphics.renderSVG import SVGCanvas, draw
 import gui
 
 gui.start_gui()
-print("Image-Number: " + str(gui.image_number))
 
 old_colour = '#FF0000'
 color_path = "assets/hexColors.txt"
