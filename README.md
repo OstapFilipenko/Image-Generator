@@ -9,19 +9,19 @@ This python script was developed by [Ostap Filipenko](https://www.linkedin.com/i
 
 ## Some of the generated images
 
-![NFT-1](/Generated Images/NFT_1.png)
-![NFT-4](./Generated Images/NFT_4.png?raw=true "NFT-4")
-![NFT-6](./Generated Images/NFT_6.png?raw=true "NFT-6")
-![NFT-9](./Generated Images/NFT_9.png?raw=true "NFT-9")
-![NFT-12](./Generated Images/NFT_12.png?raw=true "NFT-12")
-![NFT-14](./Generated Images/NFT_14.png?raw=true "NFT-14")
-![NFT-16](./Generated Images/NFT_16.png?raw=true "NFT-16")
-![NFT-18](./Generated Images/NFT_18.png?raw=true "NFT-18")
-![NFT-22](./Generated Images/NFT_22.png?raw=true "NFT-22")
-![NFT-23](./Generated Images/NFT_23.png?raw=true "NFT-23")
-![NFT-27](./Generated Images/NFT_27.png?raw=true "NFT-27")
-![NFT-28](./Generated Images/NFT_28.png?raw=true "NFT-28")
-![NFT-29](./Generated Images/NFT_29.png?raw=true "NFT-29")
+![NFT-1](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_1.png)
+![NFT-4](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_4.png)
+![NFT-6](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_6.png)
+![NFT-9](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_9.png)
+![NFT-12](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_12.png)
+![NFT-14](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_14.png)
+![NFT-16](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_16.png)
+![NFT-18](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_18.png)
+![NFT-22](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_22.png)
+![NFT-23](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_23.png)
+![NFT-27](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_27.png)
+![NFT-28](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_28.png)
+![NFT-29](https://github.com/OstapFilipenko/Image-Generator/blob/main/Generated%20Images/NFT_29.png)
 
 
 ## How does it work?
