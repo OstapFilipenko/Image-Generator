@@ -9,7 +9,7 @@ This python script was developed by [Ostap Filipenko](https://www.linkedin.com/i
 
 ## Some of the generated images
 
-![NFT-1](./Generated Images/NFT_1.png?raw=true "NFT-1")
+![NFT-1](/Generated Images/NFT_1.png?raw=true "NFT-1")
 ![NFT-4](./Generated Images/NFT_4.png?raw=true "NFT-4")
 ![NFT-6](./Generated Images/NFT_6.png?raw=true "NFT-6")
 ![NFT-9](./Generated Images/NFT_9.png?raw=true "NFT-9")
